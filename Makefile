@@ -6,7 +6,7 @@
 #    By: gscarama <gscarama@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/07 12:08:26 by gscarama          #+#    #+#              #
-#    Updated: 2022/03/16 15:01:46 by gscarama         ###   ########.fr        #
+#    Updated: 2022/03/17 13:12:44 by gscarama         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,11 +14,12 @@ NAME	= pipex
 
 SOURCE	= main.c \
 			pipex.c \
-			lib.c
+			ft_split.c \
+			utils.c
 
 GCC		= gcc
 RM		= rm -rf
-CFLAGS	= -Wall -Wextra -Werror
+CFLAGS	= -Wall -Wextra -Werror -g
 HEADER	= incl
 PATH_SRC	= srcs
 PATH_OBJ	= objs
